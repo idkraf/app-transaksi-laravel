@@ -14,6 +14,7 @@
             {{-- Sidebar --}}
             <div class="col-md-3 col-lg-2 sidebar">
                 <div class="list-group">
+                    <a href="{{ route('dashboard.index') }}" class="list-group-item list-group-item-action">Dashboard</a>
                     <a href="{{ route('penjualan.index') }}" class="list-group-item list-group-item-action">Penjualan</a>
                     <a href="{{ route('pembelian.index') }}" class="list-group-item list-group-item-action">Pembelian</a>
                     <a href="{{ route('supplier.index') }}" class="list-group-item list-group-item-action">Supplier</a>

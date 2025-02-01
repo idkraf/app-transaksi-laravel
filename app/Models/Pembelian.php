@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Pembelian extends Model
 {
     //
+    protected $table = 'pembelian';
     /**
      * The attributes that are mass assignable.
      *
